@@ -1,0 +1,252 @@
+.headersection {
+    height: 70vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    
+}
+
+
+
+.headersection .nav {
+    color: #fff;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+  /
+
+}
+
+.headersection .nav .child1 {
+    font-size: 18px;
+    padding: 12px 40px;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+
+.headersection .nav .child1:hover {
+    font-size: 19px;
+}
+
+.headersection .nav .child2 {
+    padding: 12px 40px;
+}
+
+.headersection .nav .child2 ul {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+
+.headersection .nav .child2 ul li {
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+
+.headersection .nav .child2 ul li:hover {
+    font-size: 19px;
+}
+
+.othersection {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 20px;
+
+}
+
+.othersection .mainheading {
+    font-size: 60px;
+    font-weight: bolder;
+
+}
+
+.othersection .text {
+    font-size: 30px;
+
+}
+
+.othersection .searchbox {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 700px;
+
+
+
+    margin-top: 10px;
+}
+
+.othersection .searchbox .input1 {
+    display: flex;
+    align-items: center;
+
+    gap: 5px;
+    background-color: #fff;
+    border-right: 1px solid gray;
+    padding-right: 5px;
+    color: rgb(114, 112, 112);
+    font-size: 14px;
+    padding: 14px 10px;
+    border-radius: 7px;
+   
+}
+
+.othersection .searchbox .input1:hover{
+
+    transform: scale(1.02);
+}
+
+.othersection .searchbox .input1 .input1a {
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    gap: 10px;
+    align-items: center;
+    align-items: center;
+}
+
+.othersection .searchbox .input1 img {
+    height: 20px;
+}
+
+.othersection .searchbox .input1 .cp {
+    cursor: pointer;
+}
+
+.othersection .searchbox .input2 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: #fff;
+    color: rgb(114, 112, 112);
+    font-size: 14px;
+    padding: 14px 10px;
+    border-radius: 7px;
+}
+.othersection .searchbox .input2:hover{
+
+    transform: scale(1.02);
+}
+
+.othersection .searchbox .input2 img {
+    height: 20px;
+}
+
+.hamburgersection {
+    display: none;
+    padding: 10px 20px;
+    /* height: 100vh; */
+    width: 100vw;
+    /* margin-bottom: 80px; */
+
+}
+
+.hamburgersection .child1 {
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hamburgersection .child1 .logoimg {
+    width: 170px;
+    margin-right: 60px;
+}
+
+.hamburgersection .child2 {}
+
+.hamburgersection .child2 ul {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    list-style-type: none;
+    color: gray;
+    font-size: 18px;
+    letter-spacing: 0.5px;
+}
+
+.hamburgersection .child2 ul {
+    cursor: pointer;
+}
+
+
+.widthfull {
+    width: 100vw;
+    height: 190vh;
+    background-color: white;
+}
+
+.widthhalf {
+    width: 20px;
+
+}
+
+.crossimg {
+    height: 25px;
+
+}
+
+.hamburgerchild {
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+}
+
+.hide{
+    display: none;
+} 
+
+@media only screen and (max-width: 770px) {
+  
+    
+    .headersection .nav {
+        display: none;
+    }
+
+    .hamburgersection {
+        display: inline;
+
+    }
+
+    .othersection .text {
+        font-size: 20px;
+        letter-spacing: 1px;
+
+    }
+
+    .othersection .searchbox {
+
+        width: 500px;
+
+
+    }
+}
+
+@media only screen and (max-width: 520px) {
+
+    
+
+    .othersection .text {
+        font-size: 20px;
+        letter-spacing: 1px;
+
+    }
+
+    .othersection .searchbox {
+
+        width: 300px;
+
+
+    }
+
+    .othersection .text {
+        font-size: 20px;
+        text-align: center;
+        padding: 0px 5px;
+
+    }
+}

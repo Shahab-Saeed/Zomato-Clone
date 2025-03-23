@@ -1,0 +1,132 @@
+.footer{
+    width: 98vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    gap: 40px;
+    margin-bottom: 50px;
+}
+
+.footer .child1{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 60px;
+    gap: 50px;
+    flex-wrap: wrap;
+
+}
+
+
+.footer .child1 .child1a img{
+    height: 25px;
+}
+
+.footer .child1 .child1b{
+    display: flex;
+    gap: 20px;
+}
+
+
+
+.footer .child1 .child1b .child1ba{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    border: 1px solid rgb(209, 199, 199);
+    padding: 5px 5px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+.footer .child1 .child1b .child1ba img{
+    height: 15px;
+}
+
+.footer .child1 .child1b .child1bb{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    border: 1px solid rgb(209, 199, 199);
+    padding: 5px 5px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+.footer .child1 .child1b .child1bb img{
+    height: 18px;
+}
+
+
+/* FOR  CHILD 2*/
+
+.footer .child2{
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    margin-bottom: 50px;
+    padding: 0px 60px;
+    flex-wrap: wrap;
+
+}
+
+.footer .child2 .child2a{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.footer .child2 .child2a .heading{
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+
+.footer .child2 .child2a ul{
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    gap: 7px;
+}
+
+.footer .child2 .child2a ul li{
+    font-size: 12px;
+    letter-spacing: 1px;
+    color: rgb(80, 78, 78);
+}
+
+.footer .child2a .child2aa{
+    display: flex;
+    gap: 8px;
+}
+
+.footer .child2a .child2aa span img{
+    background-color: black;
+    border-radius: 30px;
+    height: 18px;
+    padding: 2px 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.footer .child2a .appimg img{
+    width: 120px;
+    margin-top: 10px;
+}
+
+.footer .child2a .appimg2 img{
+    width: 120px;
+}
+
+.footer .child3{
+    border-top: 1px solid rgb(209, 204, 204);
+    padding-top: 20px;
+}
+
+.footer .child3 p{
+    font-size: 12px;
+    display: flex;
+    flex-wrap: wrap;
+    letter-spacing: 0.7px;
+    color: gray;
+}
