@@ -130,3 +130,9 @@
     letter-spacing: 0.7px;
     color: gray;
 }
+
+@media only screen and (max-width: 770px) {
+    .child3{
+        text-align: center;
+    }
+}

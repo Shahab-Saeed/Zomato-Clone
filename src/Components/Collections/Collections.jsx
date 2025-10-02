@@ -10,7 +10,7 @@ const Collections = () => {
         <h1>Collections</h1>
         <div className="child1a">
             <div className="pflex">
-            <p>Explore curated lists of top restaurants, cafes, pubs, and bars in Delhi NCR, based on trends</p>
+            <p>Explore  curated lists of top restaurants, cafes, pubs, and bars in Delhi NCR, based on trends</p>
             </div>
             <div className="child1b">
                 <p>All collections in Delhi NCR</p>

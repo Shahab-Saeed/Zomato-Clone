@@ -4,7 +4,7 @@
     display: flex;
     flex-direction: column;
     gap: 80px;
-    
+
 }
 
 
@@ -14,8 +14,7 @@
     font-size: 20px;
     display: flex;
     justify-content: space-between;
-  /
-
+    /
 }
 
 .headersection .nav .child1 {
@@ -92,10 +91,10 @@
     font-size: 14px;
     padding: 14px 10px;
     border-radius: 7px;
-   
+
 }
 
-.othersection .searchbox .input1:hover{
+.othersection .searchbox .input1:hover {
 
     transform: scale(1.02);
 }
@@ -127,7 +126,8 @@
     padding: 14px 10px;
     border-radius: 7px;
 }
-.othersection .searchbox .input2:hover{
+
+.othersection .searchbox .input2:hover {
 
     transform: scale(1.02);
 }
@@ -142,6 +142,7 @@
     /* height: 100vh; */
     width: 100vw;
     /* margin-bottom: 80px; */
+
 
 }
 
@@ -196,13 +197,13 @@
     gap: 70px;
 }
 
-.hide{
+.hide {
     display: none;
-} 
+}
 
 @media only screen and (max-width: 770px) {
-  
-    
+
+
     .headersection .nav {
         display: none;
     }
@@ -224,11 +225,20 @@
 
 
     }
+
+    .hamburgersection {
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 10000;
+        height: 100vh;
+    }
+
 }
 
 @media only screen and (max-width: 520px) {
 
-    
+
 
     .othersection .text {
         font-size: 20px;

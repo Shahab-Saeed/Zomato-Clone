@@ -68,10 +68,18 @@
 
 @media only screen and (max-width: 920px) {
 
+
+    .collections .child1{
+        text-align: center;
+    }
     .collections .child1a {
         display: flex;
         flex-direction: column;
 
+    }
+     .collections .child1b  {
+display: flex;
+justify-content: center;
     }
 
     .collections .child1 .child1b {
